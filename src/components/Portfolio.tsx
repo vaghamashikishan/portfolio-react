@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { FaReact, FaAngular, FaNodeJs, FaJava, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { SiExpress, SiMongodb, SiTailwindcss, SiRedux } from 'react-icons/si'
+import useAnalytics from './useAnalytics'
 
 export default function Portfolio() {
     const [activeSection, setActiveSection] = useState('home')
@@ -133,12 +134,14 @@ export default function Portfolio() {
                             company="Deadlock infotech Pvt. Ltd."
                             date="May 2024 – July 2024"
                             description="Developed user-friendly web applications using Angular, React, MySQL, and Tailwind CSS, prioritizing seamless customization and optimal user experience."
+                            index="1"
                         />
                         <TimelineItem
                             title="Software Engineer"
                             company="Responscity Systems Pvt. Ltd."
                             date="July 2022 – March 2023"
                             description="Led a team of developers in a comprehensive website update project for Silvassa Municipal Corporation, migrating the website from Angular 7 to Angular 14. Developed admin-side modules: e-Auction, Street Vendor Licence, Construction."
+                            index="2"
                         />
                     </Timeline>
                 </div>
@@ -183,12 +186,14 @@ export default function Portfolio() {
                             company="DA-IICT"
                             date="July 2023 – Present"
                             description="CPI - 8.8"
+                            index="3"
                         />
                         <TimelineItem
                             title="Bachelor of Science in Information Technology"
                             company="VNSGU"
                             date="2019 – 2022"
                             description="CPI - 7.92"
+                            index="4"
                         />
                     </Timeline>
                 </div>
