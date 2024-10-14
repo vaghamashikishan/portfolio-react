@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { FaReact, FaAngular, FaNodeJs, FaJava, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { SiExpress, SiMongodb, SiTailwindcss, SiRedux } from 'react-icons/si'
-import useAnalytics from './useAnalytics'
 
 export default function Portfolio() {
     const [activeSection, setActiveSection] = useState('home')
